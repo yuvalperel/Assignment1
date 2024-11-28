@@ -8,7 +8,8 @@ header {
   text-align: center;
 }
 
-.project {
+.project,
+.about {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,12 +18,15 @@ header {
   margin-bottom: 10px;
 }
 
-.project h2 {
+.project h2,
+.about h2 {
   flex: 1;
   margin: 0;
 }
 
-.project p {
+.project p,
+.about p,
+.about section {
   flex: 2;
   margin: 0 10px;
 }
@@ -84,26 +88,6 @@ footer a:hover {
   background-color: #ada397;
 }
 
-.about {
-  font-size: 25px;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-}
-
-.item {
-  text-align: center;
-  box-sizing: border-box;
-  padding: 10px;
-  flex-basis: 50%;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 10px;
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -114,7 +98,8 @@ body {
   flex-direction: column;
 }
 
-p {
+p,
+section {
   font-size: 25px;
   text-align: center;
 }
