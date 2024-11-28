@@ -1,0 +1,141 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #d6cbd3;
+  padding: 10px 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.project h2 {
+  flex: 1;
+  margin: 0;
+}
+
+.project p {
+  flex: 2;
+  margin: 0 10px;
+}
+
+.project a {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.project a:hover {
+  color: #0056b3;
+}
+
+main {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+}
+
+a {
+  font-size: 25px;
+  text-align: center;
+  flex: 1;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  flex: 1;
+  padding: 10px 0;
+}
+
+nav a:hover {
+  background-color: #ada397;
+  font-size: 30px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #d6cbd3;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+footer a:hover {
+  background-color: #ada397;
+}
+
+.about {
+  font-size: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.item {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  flex-basis: 50%;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+  flex-direction: column;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+}
+
+h1 {
+  color: lightpink;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  font-size: 80px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h2 {
+  color: lightpink;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  font-size: 50px;
+  padding: 20px 0;
+}
+
+form input,
+form textarea,
+form button {
+  font-size: 25px;
+}
