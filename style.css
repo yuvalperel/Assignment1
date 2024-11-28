@@ -79,7 +79,7 @@ a {
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   flex: 1;
   padding: 10px 0;
@@ -119,14 +119,14 @@ body {
 
 p,
 section {
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 }
 
 h1 {
   color: lightpink;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
-  font-size: 80px;
+  font-size: 60x;
   text-align: center;
   padding: 20px 0;
 }
@@ -134,12 +134,12 @@ h1 {
 h2 {
   color: lightpink;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
-  font-size: 50px;
+  font-size: 40px;
   padding: 20px 0;
 }
 
 form input,
 form textarea,
 form button {
-  font-size: 25px;
+  font-size: 20px;
 }
