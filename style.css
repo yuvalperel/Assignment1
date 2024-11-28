@@ -21,6 +21,10 @@ header {
   text-align: center;
 }
 
+main {
+  margin-top: 80px;
+}
+
 .project,
 .about {
   display: flex;
@@ -126,9 +130,8 @@ section {
 h1 {
   color: lightpink;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
-  font-size: 60x;
+  font-size: 60px;
   text-align: center;
-  padding: 20px 0;
 }
 
 h2 {
